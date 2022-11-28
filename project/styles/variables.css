@@ -1,13 +1,46 @@
 :root {
-    --primary-color : ;
+    /* *color text */
 
-    --primary-bg : ;
+    --primary-color :black ;
+    --secondary-color: white;
+    --additional-color: blue;
+    --spare-color: pink;
 
-    --font-family-size : ;
+    /* *background */
 
-    --font-size-size : ;
+    --primary-bg :antiquewhite;
+    --secondary-bg:linear-gradient (pink violet);
+    --additional-bg: gray;
+    --spare-bg: rgb(25, 116, 162);
 
-    --margin-size : ;
-    --padding-size : ;
+    /* --font-family */
+    
+    --primary-font-family: 'Lato', sans-serif;
+    --secondary-font-family: 'Roboto', sans-serif;
+
+
+    /*  *font-size */
+
+    --font-size-xl: 3rem ;
+    --font-size-l : 2rem;
+    --font-size-m : 1.2rem;
+    --font-size-s : 1rem;
+
+    /* *margins */
+
+    --margin-size-xl : 3rem;
+    --margin-size-l : 2rem ;
+    --margin-size-m : 1rem ;
+    --margin-size-s : .8rem ;
+
+
+    /* *paddings */
+
+    --padding-size-xl : 3rem;
+    --padding-size-l : 2rem ;
+    --padding-size-m : 1rem ;
+    --padding-size-s : .8rem ;
+
+
 }
     

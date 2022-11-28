@@ -3,13 +3,13 @@
 
     --primary-color :black ;
     --secondary-color: white;
-    --additional-color: blue;
+    --additional-color: rgb(5, 5, 75);
     --spare-color: pink;
 
     /* *background */
 
     --primary-bg :antiquewhite;
-    --secondary-bg:linear-gradient (pink violet);
+    --secondary-bg: linear-gradient(rgb(200, 200, 240),rgb(106, 106, 193));
     --additional-bg: gray;
     --spare-bg: rgb(25, 116, 162);
 

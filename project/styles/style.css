@@ -14,6 +14,72 @@ a {
 
 li {
     list-style-type : none ;
-   background: antiquewhite;
 }
+
+#app{
+    background: var( --primary-bg);
+    height: 100vh;
+}
+
+.header{
+    background:var( --secondary-bg) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var( --padding-size-m);
+    color: var( --additional-color);
+}
+
+.logo-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: var(--margin-size-m);
+}
+
+.logo{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 25%;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-family: var( --secondary-font-family);
+    font-size: var(--font-size-xl);
+    padding: var(--padding-size-m);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--font-size-l);
+    color: var( --secondary-color);
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-right: var(--margin-size-m);
+    width: 20%;
+}
+
+.input{
+    padding: var(--padding-size-m);
+    border-radius: 5%;
+}
+
+.input:hover{
+    background:aliceblue;
+    color:var( --additional-color);
+}
+
+
     

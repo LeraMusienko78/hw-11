@@ -18,7 +18,7 @@ li {
 
 #app{
     background: var( --primary-bg);
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .header{
@@ -170,7 +170,18 @@ li {
     margin-top: var(--margin-size-l);
 }
     
+.footer{
+    display: flex;
+    justify-content: center;
+    background: var( --secondary-bg);
 
+}
+
+.text__footer{
+    padding: var(--padding-size-l);
+    font-size: var(--font-size-l);
+    margin: var(--margin-size-l);
+}
 
 
 
